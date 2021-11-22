@@ -9,7 +9,7 @@ from distutils.core import setup
 setup(
   name = 'BBGConnectTCP',         # How you named your package folder (MyLib)
   packages = ['BBGConnectTCP'],   # Chose the same as "name"
-  version = '0.1',      # Start with a small number and increase it with every change you make
+  version = '0.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Allows to connect to Application through another PC by Sockets and get results',   # Give a short description about your library
   author = 'Kelian',                   # Type in your name
@@ -18,7 +18,6 @@ setup(
   download_url = 'https://github.com/KelianF/BBGConnectTCP/archive/refs/tags/0.1.tar.gz',    # I explain this later on
   keywords = ["TCP", "Socket"],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
-          'socket',
           'json',
           'pandas',
           'os',
