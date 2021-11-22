@@ -25,10 +25,10 @@ class BBGRequest:
        return 
        
     def Tcp_Read(self):
-    	a = ' '
-    	while a == ' ':
-    		a = self.s.recv(4096).decode()
-    	return a
+    	a = '  '
+    	while a[-2:] != '/u':
+    		a += self.s.recv(4096).decode()
+    	return a[:-2]
     
     def Tcp_Close(self):
        self.s.close()

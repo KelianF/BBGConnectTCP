@@ -68,5 +68,6 @@ def main():
     Tcp_Close()
     print("TCP Closed!")
 
-main()
+if __name__ == "__main__":
+    main()
 
