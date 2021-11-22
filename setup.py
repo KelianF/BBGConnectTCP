@@ -15,8 +15,8 @@ setup(
   author = 'Kelian',                   # Type in your name
   author_email = 'kelianferhat@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/KelianF/BBGConnectTCP',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/KelianF/BBGConnectTCP/archive/v_01.tar.gz',    # I explain this later on
-  keywords = [],   # Keywords that define your package best
+  download_url = 'https://github.com/KelianF/BBGConnectTCP/archive/refs/tags/0.1.tar.gz',    # I explain this later on
+  keywords = ["TCP", "Socket"],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'socket',
           'json',
